@@ -1,0 +1,6 @@
+ul.chat-message-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    direction: rtl;
+}

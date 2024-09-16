@@ -1,0 +1,11 @@
+.lobby {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: lightgray;
+    padding: 50px;
+    margin: auto;
+    border-radius: 25px;
+}

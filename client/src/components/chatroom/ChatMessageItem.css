@@ -1,0 +1,39 @@
+.chat-message-item {
+    list-style: none;
+}
+
+.chat-message-item-user-message {
+    text-align: left;
+}
+
+.chat-message-item-user-message .chat-message {
+    text-align: left;
+    background-color: white;
+}
+
+.chat-message {
+    max-width: 70%;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    background-color: lightblue;
+    color: #000;
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-shadow: 5px 10px 10px rgb(0 0 0 / 20%);
+    text-align: left;
+    direction: ltr;
+}
+
+.chat-message .from {
+    font-weight: bold;
+}
+
+.chat-message .text {
+    word-wrap: break-word;
+}
+
+.chat-message .sent-at {
+    font-size: .60rem;
+}

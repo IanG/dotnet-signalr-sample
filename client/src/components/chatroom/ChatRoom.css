@@ -1,0 +1,6 @@
+.chat-message-list-container
+{
+    flex: 1;
+    overflow-y: scroll;
+    padding-top: 20px;
+}
